@@ -1,10 +1,17 @@
-
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+div, main, section, footer{
+  box-sizing: border-box;
+}
 
 main{
-  margin-bottom: 50px;
   padding: 10px 0;
   display: flex;
   justify-content: space-between;
+  min-height: calc(100vh - 128px);
 }
 
 main .left{
@@ -31,5 +38,10 @@ main .right .submit-box{
 
 
 footer{
-
+  height: 50px;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
