@@ -1,0 +1,35 @@
+
+
+main{
+  margin-bottom: 50px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .left{
+  width: 70%;
+}
+
+main .left #in-out{
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+main .right{
+  margin-top: 50px;
+  width: 25%;
+}
+
+main .right .submit-box{
+  border:1px solid gray;
+  padding: 5px;
+  text-align: center;
+  position: sticky;
+  top: 10px;
+}
+
+
+footer{
+
+}
